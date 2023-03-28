@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2023-03-13-14-43-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1678714971.094367	CC2UHd4LUZveIVZs47	10.3.141.223	55621	13.107.4.52	80	1	GET	www.msftconnecttest.com	/connecttest.txt	-	1.1	Microsoft NCSI	-	0	22	200	OK	-	-	(empty)	-	-	-	-	-	-	FIO0zz4M333Vdrb8cf	-	text/plain
+1678714981.046470	CrHSngG7DvhML1DQ7	10.3.141.223	55681	13.107.4.52	80	1	GET	www.msftconnecttest.com	/connecttest.txt	-	1.1	Microsoft NCSI	-	0	22	200	OK	-	-	(empty)	-	-	-	-	-	-	FqBMER2Nf4S2SUkJUb	-	text/plain
+#close	2023-03-13-14-43-39

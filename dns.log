@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2023-03-13-14-49-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1678715334.408109	Cpe2LiZwJmTC6SQNi	10.3.141.223	49345	9.9.9.9	53	udp	45316	0.040827	beacons.gcp.gvt2.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	beacons-handoff.gcp.gvt2.com,gce-beacons.gcp.gvt2.com,35.201.68.45	27.000000,27.000000,165.000000	F
+1678715334.408660	Cyo04u4kaYhAqq6p98	10.3.141.223	62174	9.9.9.9	53	udp	7050	0.040304	beacons.gcp.gvt2.com	1	C_INTERNET	65	HTTPS	0	NOERROR	F	F	T	T	0	beacons-handoff.gcp.gvt2.com,gce-beacons.gcp.gvt2.com	273.000000,28.000000	F
+1678715334.423776	CjfhVa1zpx3AuJMFJ	10.3.141.223	65141	9.9.9.9	53	udp	23327	-	signaler-pa.clients6.google.com	1	C_INTERNET	65	HTTPS	0	NOERROR	F	F	T	F	0	-	-	F
+1678715335.613512	CEFlMp3O2KINE6mg74	10.3.141.223	59979	1.1.1.1	53	udp	45830	0.154191	signaler-pa.clients6.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	142.250.187.202	208.000000	F
+1678715334.423266	CEphc8BKa02INuQOd	10.3.141.223	58001	9.9.9.9	53	udp	35250	-	signaler-pa.clients6.google.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+#close	2023-03-13-14-49-05

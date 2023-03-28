@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2023-03-13-14-49-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1678715333.682425	CRuGNHBzUayU63red	10.3.141.254	51724	92.122.154.63	443	TLSv13	TLS_AES_256_GCM_SHA384	x25519	vcs-va.tiktokv.com	T	-	-	T	CsiI	-	-	-
+1678715337.132406	CyPDdi4BvIqWvg55A3	10.3.141.254	38862	92.122.154.81	443	TLSv13	TLS_AES_256_GCM_SHA384	x25519	vcs-va.tiktokv.com	T	-	-	T	CsiI	-	-	-
+1678715338.930479	CJK20B20ooIbBV5krf	10.3.141.254	36286	92.122.154.87	443	TLSv13	TLS_AES_256_GCM_SHA384	x25519	gecko16-normal-useast1a.tiktokv.com	F	-	-	T	CsiI	-	-	-
+1678715339.385342	Cn1vne324N1fWIj9Fg	10.3.141.254	49164	92.122.154.86	443	TLSv13	TLS_AES_256_GCM_SHA384	x25519	gecko16-normal-useast1a.tiktokv.com	T	-	-	F	Csi	-	-	-
+1678715339.374566	CSkNsc18nGz6cNu5g5	10.3.141.254	58208	31.13.73.35	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	b-graph.facebook.com	T	-	-	F	Csi	-	-	-
+1678715339.382382	CuZ0k63N0v4bGMm8ah	10.3.141.223	55715	142.250.179.131	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	beacons.gcp.gvt2.com	F	-	-	F	Csi	-	-	-
+1678715339.374426	C5dvhA33rfKdCxJr23	10.3.141.254	58202	31.13.73.35	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	b-api.facebook.com	T	-	-	F	Csi	-	-	-
+1678715339.375754	Ck6OXj2l7O2NA63DSj	10.3.141.254	47830	31.13.73.18	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	graph.facebook.com	T	-	-	F	Csi	-	-	-
+1678715339.374172	CRRKudTIKEAXQR6ff	10.3.141.254	47824	31.13.73.18	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	api.facebook.com	T	-	-	F	Csi	-	-	-
+1678715339.381585	CveV1rolPBYZKFYB9	10.3.141.223	55716	142.250.179.131	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	beacons.gcp.gvt2.com	F	-	-	F	Csi	-	-	-
+#close	2023-03-13-14-49-05
